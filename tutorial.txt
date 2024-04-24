@@ -1,0 +1,19 @@
+Na linguagem JS o ; é opcional
+Podemos usar "" ou '' só não pode misturar "'
+console.log //escrever nio terminal
+console.clear() //limpar a tela do terminal
+Dica "" sentenças '' importações
+Nas estruturas de controle condicional e nos laços de repetiçoes podemos omititr as chaves, porém só uma linha de código é vinculada
+Dica: Não omitir chaves
+
+Variaveis na linguagem JS são dinamicamente tipadas e somente temos 3 tipos (strings, number, boolean)
+Para declarar uma contante ou variável podemos usar:
+const, var e let
+var (obsoleto - não usar, pois pode gerar bugs no projeto)
+
+Strings 
+.replace(","","".") //substitui um caractere por outro
+
+Concatenação (unir texto com conteúdo de variáveis)
++(evitar o uso devido a tipagem dinâmica)
+'${}' (mias usado na linguagem JS)
