@@ -1,0 +1,18 @@
+Desenvolver um app Wen para calcular tio decombustivel que é mais vantajoso abastecer em um carro flex
+
+Segundo as montadoras é mais vantajoso abastecer com etanol se o litro do etanol custar até 70%
+do valor do litro da gasolina
+
+variaveis:
+email, gasolina
+entrada:
+etanol, gasolina
+processamento
+if(etanol < 0.7 * gasolina){
+    //etanol
+}
+else{
+    //gasolina
+}
+saida:
+etanol ou gasolina

@@ -1,0 +1,10 @@
+body{
+    font-family: impact;
+    font-size: 1em
+}
+.container{
+    text-align: center;
+}
+.container img{
+    max-width: 50%;
+}
