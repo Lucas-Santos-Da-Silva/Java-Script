@@ -5,6 +5,7 @@
 
 let etanol, gasolina
 
+
 function calcflex(etanol, gasolina){
     etanol = Number(frmflex.txtEtanol.value.replace(",","."))
     gasolina = Number(frmflex.txtGasolina.value.replace(",","."))

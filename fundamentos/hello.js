@@ -3,8 +3,9 @@
 *   Sintaxe básica da linguagem
 */
 //sentenças
+const colors = require ('colors')
 console.log 
-("Hello world")
+("Hello world".green)
 //blocos
 {
     console.log ("Hello Java Script")
