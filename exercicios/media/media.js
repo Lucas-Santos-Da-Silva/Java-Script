@@ -3,17 +3,32 @@
  * @author Lucas Santos da Silva
  */
 
-let nota1, nota2, nota3, nota4,rs
+let rs
 
+let num1, num2, num3, num4
 
-function media(){
-    nota1 = Number(frmflex.txtPrimeiraNota.value)
-    nota2 = Number(frmflex.txtSegundaNota.value)
-    nota3 = Number(frmflex.txtTerceiraNota.value)
-    nota4 = Number(frmflex.txtQuartaNota.value)
-    alert(nota1)
-}
-
-function limpar(){
-    document.getElementById('status').src="./img/flex.png"
+function calculo() {
+  num1 = Number(frmFlex.txtnota1.value)
+  num2 = Number(frmFlex.txtnota2.value)
+  num3 = Number(frmFlex.txtnota3.value)
+  num4 = Number(frmFlex.txtnota4.value)
+    media = (num1 + num2 + num3 + num4) / 4
+    if (media >= 7) {
+        frmFlex.txtResultado.value = "Aprovado"
+        frmFlex.txtMedia.value = media
+        let audio = new Audio('./assets/aprovado.mp3');
+        audio.play();
+      } else {
+      if (media >= 4 && media < 7) {
+        frmFlex.txtResultado.value = "Recuperação"
+        frmFlex.txtMedia.value = media
+        let audio = new Audio('./assets/recuperacao.mp3');
+        audio.play();
+      } else{
+        frmFlex.txtResultado.value = "Reprovado"
+        frmFlex.txtMedia.value = media
+        let audio = new Audio('./assets/reprovado.mp3');
+        audio.play();
+      }
+    }
 }
