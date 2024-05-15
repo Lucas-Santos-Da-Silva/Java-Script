@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de tijolos maciço comum por metro</h1>
+    <form name="frmFlex">
+        <div id="inputContainer">
+            <div id="valorContainer">
+                <p>Quantos metros quadrados?</p>
+                <input id="metro_quadrado" type="number" name="input_metro_quadrado" placeholder="Escreva aqui">
+            </div>
+            <div id="resultadoContainer">
+                <div id="resultadoUm">
+                    <p>Quantidade de tijolos maciço comum por metro quadrado:</p>
+                    <p>
+                        <input id="resultado" type="number" name="input_resultado1" placeholder="Resultado" disabled>
+                    </p>
+                </div>
+                <div id="resultadoDois">
+                    <p>Quantidade de tijolos maciço comum necessária:</p>
+                    <input type="text" name="input_resultado2" placeholder="Resultado" disabled>
+                </div>
+            </div>
+        </div>
+        <div id="buttonContainer">
+            <input type="button" value="Calcular" id="button" onclick="calcular()">
+            <input type="reset" value="Limpar" id="button" onclick="limpar()">
+        </div>
+    </form>
+    <script src="calculadora.js"></script>
+</body>
+</html>
