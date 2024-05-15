@@ -38,7 +38,7 @@ class Enxada extends bloco{
     console.log("---------------------------------------------")
     console.log("-_")
     console.log(" /")
-    console.log("Enxada de ${this:resistencia}")
+    console.log(`Enxada de ${this.resistencia}`)
     }
     arar(){
         console.log("._._._. Terra arada!")
