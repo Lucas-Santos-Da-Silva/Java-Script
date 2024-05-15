@@ -1,9 +1,0 @@
-primeiro converter de cm por m
-
-(valor em cm) / 100 = valor em m
-
-segundo é calcular a quantidade de tijolos
-
-1m / altura do tijolo = rs
-
-rs / comprimento do tijolo = quantidade de tijolos usados por m2

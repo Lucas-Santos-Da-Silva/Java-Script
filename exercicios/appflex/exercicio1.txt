@@ -1,8 +1,0 @@
-Aula 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>
-Operadores aritméticos
-Atenção a regra de precedencia:
-1º Parênteses
-2º Multiplicação
-3º Divisão
-4º Soma
-5º Substração
