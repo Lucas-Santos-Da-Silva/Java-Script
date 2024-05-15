@@ -1,0 +1,57 @@
+Na linguagem JS o ; é opcional
+Podemos usar "" ou '' só não pode misturar "'
+console.log //escrever nio terminal
+console.clear() //limpar a tela do terminal
+Dica "" sentenças '' importações
+Nas estruturas de controle condicional e nos laços de repetiçoes podemos omititr as chaves, porém só uma linha de código é vinculada
+Dica: Não omitir chaves
+
+Variaveis na linguagem JS são dinamicamente tipadas e somente temos 3 tipos (strings, number, boolean)
+Para declarar uma contante ou variável podemos usar:
+const, var e let
+var (obsoleto - não usar, pois pode gerar bugs no projeto)
+
+Strings 
+.replace(","","".") //substitui um caractere por outro
+
+Concatenação (unir texto com conteúdo de variáveis)
++(evitar o uso devido a tipagem dinâmica)
+'${}' (mias usado na linguagem JS)
+
+############### Aula 03 ####################
+
+POO - Programação Orientada a Objetos
+
+Pilares:
+- Abstração
+- Herança
+- Poliformismo
+- Encapsulamento
+
+ATENÇÃO 
+
+toda classe modelo inicia com uma letra maiúscula
+
+(IMPORTANTE!)
+new --> indica criação de um Objetos
+this --> quando se refere a ele mesmo
+super --> indica o uso de atributos da classe pai
+Poliformismo --> é a mudança de um comportamento já existente
+
+*** Atenção O polimorfismo não cria outro método, ele apenas modifica o comportamento de um método existente.
+Obrigatório usar o mesmo nome do método da classe pai.
+
+DICA:
+class Classe {} ///cria uma classe modelo
+- O nome da classe sempre deve começar com uma letra maiúscula
+- Classe (biologia)
+- objeto (new) (substantivo)
+- atributos (variáveis) (adjetivos)
+- ações (métodos/funções) (verbos)
+
+Encapsulamento
+1) proteger a variável criando um modificador privado (acesso exclusivo da classe ao qual pertence)
+2) criar uma função para obter o conteúdo da variável (get)
+3) criar uma função para gravar um dado na variável
+
+No Java-Script usamos _ antes da variável para encapsular
