@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+form{
+    background-color:aquamarine;
+    width: 100%;
+    padding: 10px 0;
+}
+h1{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+#desconto{
+    width: 30px;
+}
+input{
+    width: 100px;
+    height: 20px;
+    transition: 1s;
+}
+input:focus{
+    width: 150px;
+    height: 40px;
+}

@@ -55,3 +55,17 @@ Encapsulamento
 3) criar uma função para gravar um dado na variável
 
 No Java-Script usamos _ antes da variável para encapsular
+
+--------------------------------------------------------------------------------------
+No java-Script objetos podem ser criados sem uma classe modelo 
+Estruturas de dados usando objetosExemplos:
+- package.json
+- coleção do banco de dados (MongoDB)
+
+ATENÇÃO
+Tipos no Java-Script
+- strings
+- number
+- boolean
+- function
+- object
