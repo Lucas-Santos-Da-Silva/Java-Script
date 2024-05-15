@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+h1{ 
+    font-family: 'Calibri';
+    font-weight: bold;
+    color: wheat;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    text-align: center; 
+}
+div{
+    background-color: rgb(54, 54, 54);
+}
+#resultadoContainer{
+    height: 210px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3em;
+}
+
+#inputContainer{
+    padding: 15px;
+}
+#buttonContainer{
+    padding: 15px;
+}
+#valorContainer input{
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+    transition: 0.25s;
+}
+#valorContainer p{
+    font-size: 2em;
+}
+#valorContainer input:focus{
+    width: 120px;
+    height: 80px;
+    font-size: 3em;
+}
+#resultadoContainer input{
+    width: 75px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center; 
+}
+#resultadoContainer p{
+    font-size: 1em; 
+}
+#buttonContainer input{
+    width: 100px;
+    height: 40px;
+}
+#resultadoUm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+#resultadoDois{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
