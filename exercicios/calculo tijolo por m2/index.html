@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora de tijolos por metro</h1>
+    <form name="frmFlex">
+        <input id="altura_tijolo" type="number" name="input_altura_tijolo" placeholder="Insira aqui a altura do tijolo">
+        <input id="comprimento_tijolo" type="number" name="input_comprimento_tijolo" placeholder="Insira aqui a altura do tijolo">
+        <input id="metro_quadrado" type="number" name="input_metro_quadrado" placeholder="Insira aqui a altura do tijolo">
+        <p>
+            <input id="resultado" type="number" name="input_resultado" placeholder="Tijolos por metro quadrado" disabled>
+        </p>
+
+        <div id="input_container">
+            <input type="text" name="input_resultado" placeholder="Resultado">
+        </div>
+        <br>
+        <div id="inputContainer">
+            <input type="button" value="Calcular" id="button" onclick="calcular()">
+            <input type="reset" value="Limpar" id="button" onclick="limpar()">
+        </div>
+    </form>
+    <script src="calculadora.js"></script>
+</body>
+</html>

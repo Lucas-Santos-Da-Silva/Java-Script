@@ -1,0 +1,48 @@
+body h1{
+    font-family:Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+input{
+    width: 400px;
+    height: 30px;
+    text-decoration: none;
+}
+form{
+    background-image: linear-gradient(to right, rgb(28, 114, 212) , rgb(129, 225, 238));
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    background-color: rgb(209, 209, 209);
+    color:blueviolet;
+}
+#inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#numberinputContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(9, 58, 116);
+    border-radius: 4px;
+
+}
+#input1:hover{
+    background-color: rgb(201, 201, 201);
+}
+#input2:hover{
+    background-color: rgb(201, 201, 201);
+}
+#input3:hover{
+    background-color: rgb(201, 201, 201);
+}
+#input4:hover{
+    background-color: rgb(201, 201, 201);
+}

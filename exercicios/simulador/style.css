@@ -39,10 +39,36 @@ nav ul li a:hover{
     background-color: rgb(209, 19, 19);
     transition: all 0.4s;
 }
+#sw1{
+    float:left;
+}
+#sw2{
+    float:right;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: 50px 0;
+    text-align: center;
+}
+/* footer rodapé */
 footer{
     width: 100%;
     background-color: brown;
     color: white;
     padding: 5px 0px;
     text-align: center;
+}
+/* layout para telas grandes */
+@media (min-width: 576){
+    header h1{
+        text-align: left;
+    }
+    .container{
+        text-align: left;
+    }
+    #sw2{
+        float: left;
+    }
 }
